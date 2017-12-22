@@ -18,7 +18,7 @@ public class Path {
 
     public void init() {
         try {
-            fis = new FileInputStream("F:\\Raudel\\Programming\\Projects\\XML_Manipulation\\src\\main\\resources\\path.properties");
+            fis = new FileInputStream("..\\XML_Manipulation\\src\\main\\resources\\path.properties");
             properties.load(fis);
 
         } catch (FileNotFoundException e) {
