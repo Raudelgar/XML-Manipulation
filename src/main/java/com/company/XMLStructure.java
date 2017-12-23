@@ -86,15 +86,14 @@ public class XMLStructure {
             e.printStackTrace();
         }
 
-        return toString();
+        return toStringValues();
     }
 
-    @Override
-    public String toString() {
-        String result = "Output: ";
+    public String toStringValues() {
+        String result = "Output: \n";
         for (int i = 0; i < values.size(); i++) {
             result += " "+values.get(i);
         }
-        return result;
+        return result+"\n";
     }
 }
