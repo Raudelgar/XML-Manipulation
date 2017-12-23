@@ -23,6 +23,13 @@ public class XMLStructure {
         this.path = path;
     }
 
+    /**
+     * Read the entire xml file, through all nodes, elements and sub-elements
+     * searching for the string key parameter.
+     * @param key
+     * @return
+     */
+
     public String getXMLElement(String key) {
 
         try {
