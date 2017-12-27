@@ -64,3 +64,54 @@
 		Carlos David
 	
 
+>2017-12-27 11:54:56,981 INFO [XMLStructure.java:47] The xml file is upload successfully
+>2017-12-27 11:54:56,996 INFO [XMLStructure.java:113] Output: 
+ What is Java
+
+>2017-12-27 11:54:57,002 INFO [XMLStructure.java:47] The xml file is upload successfully
+>2017-12-27 11:54:57,003 INFO [XMLStructure.java:113] Output: 
+ What is Java 
+		java is a programming language 
+		101
+		Rolando
+	 
+		java is a plataform
+		102
+		Carlos David
+	
+
+>2017-12-27 11:55:13,100 INFO [XMLStructure.java:47] The xml file is upload successfully
+>2017-12-27 11:56:48,315 INFO [XMLStructure.java:47] The xml file is upload successfully
+>2017-12-27 11:56:48,323 INFO [XMLStructure.java:113] Output: 
+ What is Java
+
+>2017-12-27 11:56:48,326 INFO [XMLStructure.java:47] The xml file is upload successfully
+>2017-12-27 11:56:48,326 INFO [XMLStructure.java:113] Output: 
+ What is Java 
+		java is a programming language 
+		101
+		Rolando
+	 
+		java is a plataform
+		102
+		Carlos David
+	
+
+>2017-12-27 11:57:01,936 INFO [XMLStructure.java:47] The xml file is upload successfully
+>2017-12-27 12:04:33,820 INFO [XMLStructure.java:53] The xml file is upload successfully
+>2017-12-27 12:04:33,831 INFO [XMLStructure.java:119] Output: 
+ What is Java
+
+>2017-12-27 12:04:33,835 INFO [XMLStructure.java:53] The xml file is upload successfully
+>2017-12-27 12:04:33,836 INFO [XMLStructure.java:119] Output: 
+ What is Java 
+		java is a programming language 
+		101
+		Rolando
+	 
+		java is a plataform
+		102
+		Carlos David
+	
+
+>2017-12-27 12:04:48,753 INFO [XMLStructure.java:53] The xml file is upload successfully
