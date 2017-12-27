@@ -48,3 +48,19 @@
 		Carlos David
 	
 
+>2017-12-27 11:45:49,608 INFO [XMLStructure.java:45] The xml file is upload successfully
+>2017-12-27 11:45:49,632 INFO [XMLStructure.java:111] Output: 
+ What is Java
+
+>2017-12-27 11:45:49,641 INFO [XMLStructure.java:45] The xml file is upload successfully
+>2017-12-27 11:45:49,642 INFO [XMLStructure.java:111] Output: 
+ What is Java 
+		java is a programming language 
+		101
+		Rolando
+	 
+		java is a plataform
+		102
+		Carlos David
+	
+

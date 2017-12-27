@@ -6,7 +6,10 @@ public class Main {
 
         Path path = new Path();
         XMLStructure xmlStructure = new XMLStructure(path.getPathValue("demo1Path"));
-        System.out.print(xmlStructure.getXMLElement("questionname"));
-        System.out.print(xmlStructure.getXMLElement("answers"));
+        xmlStructure.getXMLElement("questionname");
+        xmlStructure.getXMLElement("answers");
+        xmlStructure.updateXmlValue("answers","id",107);
+
+
     }
 }
