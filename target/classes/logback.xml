@@ -1,0 +1,22 @@
+<configuration>
+
+    <appender name="INFO" class="ch.qos.logback.core.FileAppender">
+        <file>info.log</file>
+        <encoder>
+            <pattern>>%date %level [%file:%line] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!--<appender name="WARN" class="ch.qos.logback.core.FileAppender">-->
+        <!--<file>warn.log</file>-->
+        <!--<encoder>-->
+            <!--<pattern>>%date %level [%file:%line] %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+    <root level="info">
+        <appender-ref ref="INFO" />
+    </root>
+    <!--<root level="warn">-->
+        <!--<appender-ref ref="WARN" />-->
+    <!--</root>-->
+</configuration>

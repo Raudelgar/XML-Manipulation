@@ -1,5 +1,7 @@
 package com.company;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -14,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XMLStructure {
+    private Logger log = LoggerFactory.getLogger(XMLStructure.class);
 
     private String path;
     private List<String> values = new ArrayList<String>();
@@ -42,6 +45,7 @@ public class XMLStructure {
             doc.getDocumentElement().normalize();
 
             NodeList nodeList = doc.getDocumentElement().getChildNodes();
+            log.info("The xml file is upload successfully");
 
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Node node = nodeList.item(i);
@@ -87,12 +91,16 @@ public class XMLStructure {
 
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
+            log.error("Error on the Parse Configuration");
         } catch (SAXException e) {
             e.printStackTrace();
+            log.error("SAXException");
         } catch (IOException e) {
             e.printStackTrace();
+            log.error("IOException");
         }
 
+        log.info(toStringValues());
         return toStringValues();
     }
 
@@ -103,4 +111,5 @@ public class XMLStructure {
         }
         return result+"\n";
     }
+
 }
