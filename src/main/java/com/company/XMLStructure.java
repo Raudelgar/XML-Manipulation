@@ -153,6 +153,18 @@ public class XMLStructure {
         log.info("Update Xml Value Successful");
     }
 
+    public void createXmlFile() {
+        DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+        try {
+            DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+            Document document = docBuilder.newDocument();
+            Element rootElement = document.createElement();
+
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        }
+    }
+
     public String toStringValues() {
         String result = "Output: \n";
         for (int i = 0; i < values.size(); i++) {
